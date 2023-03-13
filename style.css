@@ -11,11 +11,14 @@ body{
 }
 
 .assignment img{
-    width:200px;
-    padding: 10px;
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 h1{
     color: darkorchid;
     text-align: center;
 }
+
