@@ -1,24 +1,49 @@
 body{
-    background-color: pink;
+    background-color: #87CEFA;
     font-family: Arial, Helvetica, sans-serif;
+}
+.assignments{
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .assignment{
-    display: flex;
+    width: 30%;
     padding: 10px;
     margin: 10px;
-    background: lightgray;
+    padding: 10px 10px;
+    background: #AFEEEE;
+    border-radius: 10px;
 }
 
 .assignment img{
-    float: left;
-    width:  100px;
-    height: 100px;
-    object-fit: cover;
+    width:200px;
+    margin: 10px;
+    border: 4px dashed #4682B4;
+    border-radius: 20px;
+    display:block;
+    margin:auto;
 }
 
+.assignment img:hover{
+    border: 4px solid #F2B;
+
+}
 h1{
     color: darkorchid;
     text-align: center;
 }
+h2{
+    text-align: center;
+}
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F2BC1B;
+}
+p{
+    text-align: center;
+}
